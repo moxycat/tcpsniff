@@ -36,6 +36,7 @@ typedef struct udp_header_s {
 	unsigned short cksum; // udp checksum
 } udp_header_t;
 
+// icmp header
 typedef struct icmp_header_s {
 	unsigned char type; // error type
 	unsigned char code; // sub code
