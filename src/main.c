@@ -7,11 +7,11 @@ TODO:
 #include <stdio.h>
 #include <stdbool.h>
 #include <ctype.h>
+#include <getopt.h>
 
 #include <WinSock2.h>
 #include <Windows.h>
 
-#include "getopt.h"
 #include "rawsocket.h"
 #include "utils.h"
 #include "decoder.h"
