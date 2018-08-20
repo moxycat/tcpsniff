@@ -1,3 +1,6 @@
+/*
+	NOT USED
+*/
 #include "checksum.h"
 
 // Calculate tcp checksum
