@@ -16,7 +16,8 @@
 #include "rawsocket.h"
 #include "decoder.h"
 
-#pragma comment(lib, "Ws2_32.lib")
+// Uncomment this if you are compiling with Visual Studio.
+//#pragma comment(lib, "Ws2_32.lib")
 
 /*
 TODO:
