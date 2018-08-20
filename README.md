@@ -2,7 +2,13 @@
 TCPSniff is a command-line tool to sniff network packets.
 
 # Build
-Run ```make.bat``` to compile the project. You will need to have MinGW installed configured to be in your ```%PATH%``` variable.
+### Linux
+If you are on a Debian/Debian-based system run this to install dependencies:
+```sudo apt-get install mingw-w64```
+And then run ```make``` which will compile a x86 and an x86_64 executable.
+
+### Windows
+If you are on a Windows system you must install MinGW and then run the recepies from the Makefile.
 
 # Usage
 Run ```tcpsniff.exe``` without any arguments, you will get a short menu with all options.
@@ -15,4 +21,4 @@ Here is an example on how to sniff passwords:
 This will search for all post requests, if someone is sending credentials to an unsecure website you will sniff that post request and get their password.
 
 # License
-[MIT License](LICENSE)
+[MIT](LICENSE)
