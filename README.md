@@ -4,7 +4,9 @@ TCPSniff is a command-line tool to sniff network packets.
 # Build
 ### Linux
 If you are on a Debian/Debian-based system run this to install dependencies:
+
 ```sudo apt-get install mingw-w64```
+
 And then run ```make``` which will compile a x86 and an x86_64 executable.
 
 ### Windows
