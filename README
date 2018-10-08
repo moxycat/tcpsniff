@@ -2,4 +2,3 @@ Simple tool to sniff TCP, UDP and ICMP network packets.
 
 License: MIT (see LICENSE for details)
 Dependencies: WinSock2 (Ws2_32.dll)
-              no external dependencies
